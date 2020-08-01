@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TRIVIA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="pantalla" id = "pantalla1">
+      <h1 id="titulo">¡BIENVENID@!</h1>
+      <div class="imagen"></div>
+      <label for="dato">¿Cuál es tu nombre?</label>
+      <input type="text" id="dato" value="" >
+      <button type="button" id="button" name="button">¡A JUGAR!</button>
+    </div>
+    <div class="pantalla" id="pantalla2">
+      <div class="opcion" id= "opcion">
+        <h1 id="hola"></h1>
+        <h2>Elige el tipo de pregunta</h2>
+      </div>
+      <button type="button" id="buttonA" name="button">TIPO A: CULTURA GENERAL</button>
+      <button type="button" id ="buttonB" name="button2">TIPO B: INGLÉS</button>
+    </div>
+    <div class="pantalla" id = "pantalla3">
+      <h1>RESULTADOS</h1>
+      <p id="score"></p>
+      <p id ="score 2"></p>
+      <button type="button" name="volver1">VOLVER A JUGAR TIPO A</button>
+      <button type="button" name="volver2">VOLVER A JUGAR TIPO B</button>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
